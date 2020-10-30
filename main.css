@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+html, body {
+    height: 100vh;
+    background-color: #F4F2F0;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F4F2F0;
+}
+
+.main > * {
+    margin: 40px 0;
+}
+
+.main__wrapper {
+    font-style: italic;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 31px;
+}
+
+.main__coming-soon {
+    font-size: 21px;
+    font-weight: 500;
+}
